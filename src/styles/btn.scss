@@ -1,0 +1,158 @@
+@import 'media';
+
+.btn {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 1px solid $main;
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: $main;
+
+    &-transparent {
+        &:hover {
+            background-color: $main;
+        }
+
+        color: $white;
+    }
+
+    &-white {
+        &:hover {
+            color: $main-btn-dark;
+
+            svg {
+                path {
+                    fill: $main-btn-dark;
+                }
+            }
+        }
+
+        color: $main;
+        background-color: $white;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+
+        span {
+            font-size: inherit;
+            line-height: inherit;
+            font-weight: inherit;
+        }
+    }
+
+    &-filled {
+        &:hover {
+            background-color: $main-btn-dark;
+            border: 1px solid $main-btn-dark;
+        }
+
+        color: $white;
+        background-color: $main;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+
+        span {
+            font-size: inherit;
+            line-height: inherit;
+            font-weight: inherit;
+        }
+    }
+
+    &-color {
+        &:hover {
+            color: $white;
+            background-color: $main;
+        }
+
+        color: $main;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+
+        span {
+            font-size: inherit;
+            line-height: inherit;
+            font-weight: inherit;
+        }
+
+    }
+}
+
+.read-more-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    color: $grey-hard;
+    text-decoration-line: underline;
+    align-items: center;
+
+    @include max-992 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    &.active {
+        svg {
+            transform: rotate(180deg);
+        }
+
+        span {
+            &.short {
+                display: none;
+            }
+
+            &.full {
+                display: block;
+            }
+        }
+    }
+
+    span {
+        &.short {
+            display: block;
+        }
+
+        &.full {
+            display: none;
+        }
+    }
+
+    &:hover {
+        text-decoration-line: none;
+    }
+}
+
+.btn-show-more {
+    color: $main;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    padding: 11px 24px;
+    border-radius: 44px;
+    border: 1px solid $grey-light;
+    width: fit-content;
+    background-color: $white;
+    margin: 0 auto;
+
+    @include max-992 {
+        padding: 8px 24px;
+    }
+
+    &:hover {
+        background-color: $main;
+        color: $white;
+        border: 1px solid $main;
+        cursor: pointer;
+    }
+
+}

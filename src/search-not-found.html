@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Поиск по сайту - не найдено</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  </head>
+  <body>
+    <include src="header.html">{"type": "white"}</include>
+    <main class="secondary-page search">
+      <section class="container secondary-page__top">
+        <div class="wrapper">
+          <include src="breadcrumbs.html">{"type": "black"}</include>
+          <h1 class="top__title">Поиск по сайту</h1>
+        </div>
+      </section>
+      <section class="container search__results">
+        <div class="wrapper">
+          <div class="search__request">
+            <input
+              type="text"
+              placeholder="Введите запрос"
+              value="CAMEL X-CNC-2000"
+            />
+            <a href="#" class="btn btn-filled">Найти</a>
+          </div>
+          <div class="results__empty">
+            <p>Ничего не найдено, попробуйте изменить запрос.</p>
+            <p>
+              или позвоните по номеру:
+              <a href="tel:+7 812 670-88-16">+7 812 670-88-16</a>
+            </p>
+            <p>и наши сотрудники помогут Вам выбрать интересующую продукцию</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <include src="footer.html"></include>
+  <include src="popups.html"></include>
+  </body>
+</html>

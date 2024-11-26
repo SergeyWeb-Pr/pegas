@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Дилерская сеть</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?load=package.standard&amp;lang=ru-RU&amp;"
+      type="text/javascript"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  </head>
+  <body>
+    <include src="header.html">{"type": "white"}</include>
+    <main class="secondary-page dealer-network">
+      <section class="container secondary-page__top with-image">
+        <div class="wrapper">
+          <include src="breadcrumbs.html">{"type": "white"}</include>
+          <div class="top__grid">
+            <a href="#" class="grid__item">О компании</a>
+            <a href="#" class="grid__item">О бренде</a>
+            <a href="#" class="grid__item grid__item-active">Дилерская сеть</a>
+            <a href="#" class="grid__item">Новости</a>
+            <a href="#" class="grid__item">Контакты</a>
+          </div>
+          <h1 class="top__title">Дилерская сеть</h1>
+        </div>
+      </section>
+      <section class="container become-a-dealer">
+        <div class="wrapper">
+          <div class="become-a-dealer__title">Хотите стать наши партнёром?</div>
+          <p class="become-a-dealer__text">
+            Мы работаем со странами СНГ и на всей территории России.
+            Мы зарекомендовали себя на рынке как надёжный и профессиональный
+            партнёр и имеем высокую репутацию среди наших заказчиков.
+          </p>
+
+          <form class="become-a-dealer__form">
+            <div class="form__title">Стать дилером</div>
+            <input type="text" name="name" placeholder="Контактное лицо" />
+            <input type="text" name="company" placeholder="Название компании" />
+            <input type="text" name="email" placeholder="Электронная почта" />
+            <input type="text" name="tel" placeholder="Контактный телефон" />
+            <label class="form__checkbox">
+              <input type="checkbox" checked name="agreement" id="agreement" />
+              <span></span>
+              <span>Я соглашаюсь с политикой конфиденциальности</span>
+            </label>
+            <input
+              class="btn btn-filled"
+              type="submit"
+              value="Оформить заявку"
+            />
+          </form>
+        </div>
+      </section>
+      <section class="container our-partners">
+        <div class="wrapper">
+          <h3 class="our-partners__title">Наши партнёры</h3>
+          <div id="dealers-map" class="dealers-map"></div>
+        </div>
+      </section>
+    </main>
+    <include src="footer.html"></include>
+  <include src="popups.html"></include>
+  </body>
+</html>

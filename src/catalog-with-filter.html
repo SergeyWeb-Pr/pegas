@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Каталог оборудования</title>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</head>
+
+<body>
+  <include src="header.html">{"type": "white"}</include>
+  <main class="secondary-page catalog catalog-with-filter">
+    <section class="container secondary-page__top">
+      <div class="wrapper">
+        <include src="breadcrumbs.html">{"type": "black"}</include>
+        <h1 class="top__title">Название подкатегории оборудования</h1>
+      </div>
+    </section>
+    <div class="container catalog__filter">
+      <div class="wrapper">
+        <div class="filter__title">Подобрать по параметрам</div>
+        <div class="filter__items">
+          <div class="filter__item">
+            <label for="batch">Серия</label>
+            <select name="batch " id="batch">
+              <option></option>
+              <option value="value1">Значение 1</option>
+            </select>
+          </div>
+          <div class="filter__item">
+            <label for="type">Тип</label>
+            <select name="type" id="type">
+              <option></option>
+              <option value="value1">Значение 1</option>
+              <option value="value2" selected>
+                Двухколонные лентопильные станки
+              </option>
+            </select>
+          </div>
+          <div class="filter__item">
+            <label for="automatization">Автоматизация</label>
+            <select name="automatization" id="automatization">
+              <option></option>
+              <option value="value1">Значение 1</option>
+            </select>
+          </div>
+          <div class="filter__item">
+            <label for="appointment">Назначение:</label>
+            <select name="appointment" id="appointment">
+              <option></option>
+              <option value="value1">Значение 1</option>
+            </select>
+          </div>
+          <div class="filter__item">
+            <label for="manufacturer">Производитель:</label>
+            <select name="manufacturer" id="manufacturer">
+              <option></option>
+              <option value="value1">Значение 1</option>
+            </select>
+          </div>
+          <a class="btn btn-color" href="#">Подобрать</a>
+        </div>
+      </div>
+    </div>
+    <section class="container catalog__grid">
+      <div class="wrapper">
+        <div class="grid__item">
+          <a href="#" class="item__image"><img src="dist/images/kotel_5.png" alt="" /></a>
+          <a href="#" class="item__title">Двухколонный ленточно — пильный станок с поворотной рамой
+            500×750 Horizontal X (2 поколение)</a>
+          <a href="#" class="btn btn-color">Подробнее</a>
+          <div class="item__compare">
+            <a class="compare__btn">
+              <div class="compare__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Добавить в сравнение</span>
+            </a>
+            <a href="#" class="compare__btn">
+              <div class="compare__icon">
+                <div class="compare__count">+1</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Перейти в сравнение</span>
+            </a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <a href="#" class="item__image"><img src="dist/images/kotel.png" alt="" /></a>
+          <a href="#" class="item__title">Двухколонный ленточнопильный станок для резки под прямым углом
+            300×300 Herkules X–CNC</a>
+          <a href="#" class="btn btn-color">Подробнее</a>
+          <div class="item__compare">
+            <a class="compare__btn">
+              <div class="compare__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Добавить в сравнение</span>
+            </a>
+            <a href="#" class="compare__btn">
+              <div class="compare__icon">
+                <div class="compare__count">+1</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Перейти в сравнение</span>
+            </a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <a href="#" class="item__image"><img src="dist/images/kotel_2.png" alt="" /></a>
+          <a href="#" class="item__title">Автоматический ленточно- пильный станок консольный
+            360×500 A-CNC-R (ленточная пила по металлу, ШВП)</a>
+          <a href="#" class="btn btn-color">Подробнее</a>
+          <div class="item__compare">
+            <a class="compare__btn">
+              <div class="compare__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Добавить в сравнение</span>
+            </a>
+            <a href="#" class="compare__btn">
+              <div class="compare__icon">
+                <div class="compare__count">+1</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Перейти в сравнение</span>
+            </a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <a href="#" class="item__image"><img src="dist/images/kotel_5.png" alt="" /></a>
+          <a href="#" class="item__title">Двухколонный ленточнопильный станок с поворотной рамой
+            500×750 Horizontal X- NC-BS</a>
+          <a href="#" class="btn btn-color">Подробнее</a>
+          <div class="item__compare">
+            <a class="compare__btn">
+              <div class="compare__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Добавить в сравнение</span>
+            </a>
+            <a href="#" class="compare__btn">
+              <div class="compare__icon">
+                <div class="compare__count">+1</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Перейти в сравнение</span>
+            </a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <a href="#" class="item__image"><img src="dist/images/kotel_5.png" alt="" /></a>
+          <a href="#" class="item__title">Двухколонный ленточно — пильный станок с поворотной рамой
+            500×750 Horizontal X (2 поколение)</a>
+          <a href="#" class="btn btn-color">Подробнее</a>
+          <div class="item__compare">
+            <a class="compare__btn">
+              <div class="compare__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Добавить в сравнение</span>
+            </a>
+            <a href="#" class="compare__btn">
+              <div class="compare__icon">
+                <div class="compare__count">+1</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Перейти в сравнение</span>
+            </a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <a href="#" class="item__image"><img src="dist/images/kotel.png" alt="" /></a>
+          <a href="#" class="item__title">Двухколонный ленточнопильный станок для резки под прямым углом
+            300×300 Herkules X–CNC</a>
+          <a href="#" class="btn btn-color">Подробнее</a>
+          <div class="item__compare">
+            <a class="compare__btn">
+              <div class="compare__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Добавить в сравнение</span>
+            </a>
+            <a href="#" class="compare__btn">
+              <div class="compare__icon">
+                <div class="compare__count">+1</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Перейти в сравнение</span>
+            </a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <a href="#" class="item__image"><img src="dist/images/kotel_2.png" alt="" /></a>
+          <a href="#" class="item__title">Автоматический ленточно- пильный станок консольный
+            360×500 A-CNC-R (ленточная пила по металлу, ШВП)</a>
+          <a href="#" class="btn btn-color">Подробнее</a>
+          <div class="item__compare">
+            <a class="compare__btn">
+              <div class="compare__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Добавить в сравнение</span>
+            </a>
+            <a href="#" class="compare__btn">
+              <div class="compare__icon">
+                <div class="compare__count">+1</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Перейти в сравнение</span>
+            </a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <a href="#" class="item__image"><img src="dist/images/kotel_5.png" alt="" /></a>
+          <a href="#" class="item__title">Двухколонный ленточнопильный станок с поворотной рамой
+            500×750 Horizontal X- NC-BS</a>
+          <a href="#" class="btn btn-color">Подробнее</a>
+          <div class="item__compare">
+            <a class="compare__btn">
+              <div class="compare__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Добавить в сравнение</span>
+            </a>
+            <a href="#" class="compare__btn">
+              <div class="compare__icon">
+                <div class="compare__count">+1</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 12H5V21H3V12ZM19 8H21V21H19V8ZM11 2H13V21H11V2Z" fill="#999999" />
+                </svg>
+              </div>
+              <span>Перейти в сравнение</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container text-block">
+      <div class="wrapper">
+        <p>Блок с оптимизированным под поисковую выдачу текстовым блоком.</p>
+        <p>
+          Ленточнопильный станок предназначен для высокопроизводительной резки
+          практически всех металлов, используемых в современном
+          машиностроении. Автоматические двухстоечные ленточные станки
+          способны разрезать с высокой скоростью как сплошной прокат и поковки
+          большого диаметра, так и трубы и профильные заготовки. Жёсткость
+          конструкции позволяет применять станки данного класса в основных
+          производствах металлургических заводов, заготовительных участках
+          предприятий, использующих труднообрабатываемые материалы, а также
+          цеха с потребностью высокой производительности на единицу
+          оборудования. Это обусловлено тем, что лишь двухстоечные станки
+          могут успешно работать с биметаллическими и твердосплавными пилами.
+        </p>
+        <a class="read-more-btn" href="#">Читать подробнее
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_81_1057)">
+              <path
+                d="M11.9997 13.1719L16.9497 8.22192L18.3637 9.63592L11.9997 15.9999L5.63574 9.63592L7.04974 8.22192L11.9997 13.1719Z"
+                fill="#009BA4" />
+            </g>
+            <defs>
+              <clipPath id="clip0_81_1057">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+  <include src="footer.html"></include>
+  <include src="popups.html"></include>
+</body>
+
+</html>

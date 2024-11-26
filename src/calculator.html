@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  </head>
+  <body>
+    <include src="header.html">{"type": "white"}</include>
+    <main class="secondary-page form-success calculator">
+      <section class="container form-success__container">
+        <div class="wrapper">
+          <include src="breadcrumbs.html">{"type": "white"}</include>
+          <div class="calculator__wrapper">
+            <h3 class="calculator__title">
+              Калькулятор расчета времени реза заготовки
+            </h3>
+            <div class="calculator__content">
+              <div class="calculator__column">
+                <label>
+                  Площадь заготовки, Мм2
+                  <input type="text" placeholder="Значение" value="600" />
+                </label>
+                <label
+                  >Режимы резания
+                  <select name="cutting-mode" id="cutting-mode">
+                    <option></option>
+                    <option value="value1">Значение 1</option>
+                  </select></label
+                >
+                <label
+                  >Тип материала
+                  <select name="material-type" id="material-type">
+                    <option></option>
+                    <option value="value1">Значение 1</option>
+                    <option value="value2" selected>Углеродистая сталь</option>
+                  </select></label
+                >
+                <a href="#" class="btn btn-filled">Рассчитать</a>
+              </div>
+              <div class="calculator__column">
+                <div class="calculator__description">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_115_10549)">
+                      <path
+                        d="M15.936 2.5L21.5 8.067V15.937L15.936 21.5H8.066L2.5 15.936V8.066L8.066 2.5H15.936ZM15.107 4.5H8.894L4.501 8.895V15.108L8.894 19.502H15.107L19.501 15.108V8.894L15.107 4.501V4.5ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z"
+                        fill="#009BA4"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_115_10549">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>Время реза:</span>
+                  <span class="cutting-time">0.171 мин.</span>
+                </div>
+                <div class="calculator__description">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_115_10553)">
+                      <path
+                        d="M12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22ZM12 20C14.1217 20 16.1566 19.1571 17.6569 17.6569C19.1571 16.1566 20 14.1217 20 12C20 9.87827 19.1571 7.84344 17.6569 6.34315C16.1566 4.84285 14.1217 4 12 4C9.87827 4 7.84344 4.84285 6.34315 6.34315C4.84285 7.84344 4 9.87827 4 12C4 14.1217 4.84285 16.1566 6.34315 17.6569C7.84344 19.1571 9.87827 20 12 20ZM13 12H17V14H11V7H13V12Z"
+                        fill="#009BA4"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_115_10553">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span
+                    >В случае реза нескольких заготовок указанное число
+                    увеличивается в кратное числу заготовок раз. 5 заготовок – в
+                    пять раз, 12 заготовок – в 12 раз и тд.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <include src="footer.html"></include>
+  <include src="popups.html"></include>
+  </body>
+</html>
