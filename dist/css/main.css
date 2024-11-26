@@ -1109,7 +1109,7 @@ button.swiper-pagination-bullet {
   position: relative;
 }
 .top-section.container {
-  background: url("/dist/images/index-bg.png") no-repeat;
+  background: url("/pegas/dist/images/index-bg.png") no-repeat;
   background-size: cover;
   background-position: center;
   margin-top: -141px !important;
@@ -1782,7 +1782,7 @@ button.swiper-pagination-bullet {
 }
 
 .main-page-statistics.container {
-  background: url("/dist/images/main-page-bg.png"), radial-gradient(50% 50% at 50% 50%, #444 0%, #333 100%);
+  background: url("/pegas/dist/images/main-page-bg.png"), radial-gradient(50% 50% at 50% 50%, #444 0%, #333 100%);
   background-blend-mode: multiply;
   background-position: center;
   color: #fff;
@@ -2093,7 +2093,7 @@ button.swiper-pagination-bullet {
   padding-top: 102px;
   padding-bottom: 102px;
   color: #fff;
-  background: url("/dist/images/contact-us-bg.png"), #009BA4;
+  background: url("/pegas/dist/images/contact-us-bg.png"), #009BA4;
   background-position: center;
   background-blend-mode: multiply;
 }
@@ -2816,14 +2816,14 @@ button.swiper-pagination-bullet {
 .secondary-page.single-service .single-service__container {
   padding-top: 16px;
   padding-bottom: 142px;
-  background: url("/dist/images/single-service-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+  background: url("/pegas/dist/images/single-service-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
   background-position: center;
   background-blend-mode: multiply;
   background-size: cover;
 }
 @media (max-width: 1200px) {
   .secondary-page.single-service .single-service__container {
-    background: url("/dist/images/single-service-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/single-service-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-position: center;
     background-blend-mode: multiply;
     background-size: cover;
@@ -2831,7 +2831,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .secondary-page.single-service .single-service__container {
-    background: url("/dist/images/single-service-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/single-service-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-position: center;
     background-blend-mode: multiply;
     background-size: cover;
@@ -2854,7 +2854,7 @@ button.swiper-pagination-bullet {
 .secondary-page.form-success .container {
   padding-top: 16px;
   padding-bottom: 0;
-  background: url("/dist/images/form-success-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+  background: url("/pegas/dist/images/form-success-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
   background-color: rgba(2, 42, 45, 0.6);
   background-position: center;
   background-blend-mode: multiply;
@@ -2862,7 +2862,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1200px) {
   .secondary-page.form-success .container {
-    background: url("/dist/images/form-success-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/form-success-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -2871,7 +2871,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .secondary-page.form-success .container {
-    background: url("/dist/images/form-success-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/form-success-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -2967,7 +2967,7 @@ button.swiper-pagination-bullet {
   fill: #009BA4;
 }
 .secondary-page.form-success-2 .container {
-  background: url("/dist/images/form-success-2-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+  background: url("/pegas/dist/images/form-success-2-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
   background-color: rgba(2, 42, 45, 0.6);
   background-position: center;
   background-blend-mode: multiply;
@@ -2975,7 +2975,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1200px) {
   .secondary-page.form-success-2 .container {
-    background: url("/dist/images/form-success-2-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/form-success-2-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -2984,7 +2984,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .secondary-page.form-success-2 .container {
-    background: url("/dist/images/form-success-2-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/form-success-2-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -2992,7 +2992,7 @@ button.swiper-pagination-bullet {
   }
 }
 .secondary-page.calculator .container {
-  background: url("/dist/images/calculator-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+  background: url("/pegas/dist/images/calculator-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
   background-color: rgba(2, 42, 45, 0.6);
   background-position: center;
   background-blend-mode: multiply;
@@ -3000,7 +3000,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1200px) {
   .secondary-page.calculator .container {
-    background: url("/dist/images/calculator-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/calculator-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3009,7 +3009,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .secondary-page.calculator .container {
-    background: url("/dist/images/calculator-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/calculator-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3231,7 +3231,7 @@ button.swiper-pagination-bullet {
   }
 }
 .secondary-page.about-company .container.with-image {
-  background: url("/dist/images/o-kompanii-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+  background: url("/pegas/dist/images/o-kompanii-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
   background-color: rgba(2, 42, 45, 0.6);
   background-position: center;
   background-blend-mode: multiply;
@@ -3239,7 +3239,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1200px) {
   .secondary-page.about-company .container.with-image {
-    background: url("/dist/images/o-kompanii-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/o-kompanii-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3248,7 +3248,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .secondary-page.about-company .container.with-image {
-    background: url("/dist/images/o-kompanii-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/o-kompanii-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3256,7 +3256,7 @@ button.swiper-pagination-bullet {
   }
 }
 .secondary-page.about-the-brand .container.with-image {
-  background: url("/dist/images/o-brende-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+  background: url("/pegas/dist/images/o-brende-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
   background-color: rgba(2, 42, 45, 0.6);
   background-position: center;
   background-blend-mode: multiply;
@@ -3264,7 +3264,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1200px) {
   .secondary-page.about-the-brand .container.with-image {
-    background: url("/dist/images/o-brende-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/o-brende-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3273,7 +3273,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .secondary-page.about-the-brand .container.with-image {
-    background: url("/dist/images/o-brende-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/o-brende-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3281,7 +3281,7 @@ button.swiper-pagination-bullet {
   }
 }
 .secondary-page.dealer-network .container.with-image {
-  background: url("/dist/images/dilerskaya-set-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+  background: url("/pegas/dist/images/dilerskaya-set-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
   background-color: rgba(2, 42, 45, 0.6);
   background-position: center;
   background-blend-mode: multiply;
@@ -3289,7 +3289,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1200px) {
   .secondary-page.dealer-network .container.with-image {
-    background: url("/dist/images/dilerskaya-set-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/dilerskaya-set-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3298,7 +3298,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .secondary-page.dealer-network .container.with-image {
-    background: url("/dist/images/dilerskaya-set-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/dilerskaya-set-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3340,7 +3340,7 @@ button.swiper-pagination-bullet {
   background-color: #fff;
 }
 .secondary-page.news .container.with-image {
-  background: url("/dist/images/news-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+  background: url("/pegas/dist/images/news-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
   background-color: rgba(2, 42, 45, 0.6);
   background-position: center;
   background-blend-mode: multiply;
@@ -3348,7 +3348,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1200px) {
   .secondary-page.news .container.with-image {
-    background: url("/dist/images/news-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/news-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3357,7 +3357,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .secondary-page.news .container.with-image {
-    background: url("/dist/images/news-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/news-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3399,7 +3399,7 @@ button.swiper-pagination-bullet {
   background-color: #fff;
 }
 .secondary-page.contacts .container.with-image {
-  background: url("/dist/images/contacts-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+  background: url("/pegas/dist/images/contacts-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
   background-color: rgba(2, 42, 45, 0.6);
   background-position: center;
   background-blend-mode: multiply;
@@ -3407,7 +3407,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1200px) {
   .secondary-page.contacts .container.with-image {
-    background: url("/dist/images/contacts-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/contacts-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3416,7 +3416,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .secondary-page.contacts .container.with-image {
-    background: url("/dist/images/contacts-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/contacts-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3459,7 +3459,7 @@ button.swiper-pagination-bullet {
   background-color: transparent;
 }
 .secondary-page.single-news .container.with-image {
-  background: url("/dist/images/single-news-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+  background: url("/pegas/dist/images/single-news-bg.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
   background-color: rgba(2, 42, 45, 0.6);
   background-position: center;
   background-blend-mode: multiply;
@@ -3467,7 +3467,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1200px) {
   .secondary-page.single-news .container.with-image {
-    background: url("/dist/images/single-news-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/single-news-bg-tablet.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3476,7 +3476,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .secondary-page.single-news .container.with-image {
-    background: url("/dist/images/single-news-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
+    background: url("/pegas/dist/images/single-news-bg-mobile.png") no-repeat, linear-gradient(180deg, rgba(5, 43, 46, 0.5411764706) 0%, rgba(2, 42, 45, 0) 27%);
     background-color: rgba(2, 42, 45, 0.6);
     background-position: center;
     background-blend-mode: multiply;
@@ -3880,7 +3880,7 @@ button.swiper-pagination-bullet {
 }
 
 .delivery-geography {
-  background: url("/dist/images/o-kompanii-bg-2.png"), radial-gradient(50% 50% at 50% 50%, #444 0%, #333 100%);
+  background: url("/pegas/dist/images/o-kompanii-bg-2.png"), radial-gradient(50% 50% at 50% 50%, #444 0%, #333 100%);
   background-blend-mode: multiply;
 }
 .delivery-geography.container {
@@ -4275,7 +4275,7 @@ button.swiper-pagination-bullet {
 }
 .become-a-dealer__form .form__checkbox input:checked + span::after {
   content: " ";
-  background: url("/dist/images/agreement.png") 0 0 no-repeat;
+  background: url("/pegas/dist/images/agreement.png") 0 0 no-repeat;
   background-size: contain;
   width: 11px;
   height: 8px;
@@ -6047,7 +6047,7 @@ button.swiper-pagination-bullet {
 }
 .contacts__item .item__form .form__checkbox input:checked + span::after {
   content: " ";
-  background: url("/dist/images/agreement.png") 0 0 no-repeat;
+  background: url("/pegas/dist/images/agreement.png") 0 0 no-repeat;
   background-size: contain;
   width: 11px;
   height: 8px;
@@ -6283,7 +6283,7 @@ button.swiper-pagination-bullet {
 }
 .contact-us__form .form__checkbox input:checked + span::after {
   content: " ";
-  background: url("/dist/images/agreement.png") 0 0 no-repeat;
+  background: url("/pegas/dist/images/agreement.png") 0 0 no-repeat;
   background-size: contain;
   width: 11px;
   height: 8px;
@@ -6596,7 +6596,7 @@ button.swiper-pagination-bullet {
 }
 .request__form .form__checkbox input:checked + span::after {
   content: " ";
-  background: url("/dist/images/agreement.png") 0 0 no-repeat;
+  background: url("/pegas/dist/images/agreement.png") 0 0 no-repeat;
   background-size: contain;
   width: 11px;
   height: 8px;
@@ -6728,7 +6728,7 @@ button.swiper-pagination-bullet {
   opacity: 1;
   display: block;
   margin-top: 5px;
-  background: url("/dist/images/calendar.svg") no-repeat;
+  background: url("/pegas/dist/images/calendar.svg") no-repeat;
   width: 16px;
   height: 16px;
   border-width: thin;
@@ -6952,7 +6952,7 @@ button.swiper-pagination-bullet {
 }
 .repair__form .form__checkbox input:checked + span::after {
   content: " ";
-  background: url("/dist/images/agreement.png") 0 0 no-repeat;
+  background: url("/pegas/dist/images/agreement.png") 0 0 no-repeat;
   background-size: contain;
   width: 11px;
   height: 8px;
@@ -7133,7 +7133,7 @@ button.swiper-pagination-bullet {
   opacity: 1;
   display: block;
   margin-top: 5px;
-  background: url("/dist/images/calendar.svg") no-repeat;
+  background: url("/pegas/dist/images/calendar.svg") no-repeat;
   width: 16px;
   height: 16px;
   border-width: thin;
@@ -7358,7 +7358,7 @@ button.swiper-pagination-bullet {
 }
 .costs__form .form__checkbox input:checked + span::after {
   content: " ";
-  background: url("/dist/images/agreement.png") 0 0 no-repeat;
+  background: url("/pegas/dist/images/agreement.png") 0 0 no-repeat;
   background-size: contain;
   width: 11px;
   height: 8px;
@@ -8140,7 +8140,7 @@ button.swiper-pagination-bullet {
 }
 .spares__form .form__checkbox input:checked + span::after {
   content: " ";
-  background: url("/dist/images/agreement.png") 0 0 no-repeat;
+  background: url("/pegas/dist/images/agreement.png") 0 0 no-repeat;
   background-size: contain;
   width: 11px;
   height: 8px;
@@ -8619,7 +8619,7 @@ button.swiper-pagination-bullet {
 }
 .leasing__form .form__checkbox input:checked + span::after {
   content: " ";
-  background: url("/dist/images/agreement.png") 0 0 no-repeat;
+  background: url("/pegas/dist/images/agreement.png") 0 0 no-repeat;
   background-size: contain;
   width: 11px;
   height: 8px;
@@ -9146,14 +9146,14 @@ button.swiper-pagination-bullet {
 .single-product .request-block.container {
   padding-top: 90px;
   padding-bottom: 73px;
-  background: url("/dist/images/request-block-bg.png") no-repeat;
+  background: url("/pegas/dist/images/request-block-bg.png") no-repeat;
   background-position: center;
   background-blend-mode: multiply;
   background-size: cover;
 }
 @media (max-width: 1200px) {
   .single-product .request-block.container {
-    background: url("/dist/images/request-block-bg-tablet.png") no-repeat;
+    background: url("/pegas/dist/images/request-block-bg-tablet.png") no-repeat;
     background-position: center;
     background-blend-mode: multiply;
     background-size: cover;
@@ -9162,7 +9162,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .single-product .request-block.container {
-    background: url("/dist/images/request-block-bg-mobile.png") no-repeat;
+    background: url("/pegas/dist/images/request-block-bg-mobile.png") no-repeat;
     background-position: center;
     background-blend-mode: multiply;
     background-size: cover;
@@ -9951,14 +9951,14 @@ button.swiper-pagination-bullet {
 .single-service .request-block-2.container {
   padding-top: 90px;
   padding-bottom: 110px;
-  background: url("/dist/images/request-2-bg.png") no-repeat;
+  background: url("/pegas/dist/images/request-2-bg.png") no-repeat;
   background-position: center;
   background-blend-mode: multiply;
   background-size: cover;
 }
 @media (max-width: 1200px) {
   .single-service .request-block-2.container {
-    background: url("/dist/images/request-2-bg-tablet.png") no-repeat;
+    background: url("/pegas/dist/images/request-2-bg-tablet.png") no-repeat;
     background-position: center;
     background-blend-mode: multiply;
     background-size: cover;
@@ -9966,7 +9966,7 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 991px) {
   .single-service .request-block-2.container {
-    background: url("/dist/images/request-2-bg-mobile.png") no-repeat;
+    background: url("/pegas/dist/images/request-2-bg-mobile.png") no-repeat;
     background-position: center;
     background-blend-mode: multiply;
     background-size: cover;
